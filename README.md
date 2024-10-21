@@ -2,28 +2,6 @@
 
 This project automates tests for specific components of the website the-internet.herokuapp.com using Cypress with TypeScript. The project follows a Page Object Model (POM) pattern to separate the selectors from the test logic for better maintainability and scalability.
 
-# Project Structure
-
-/cypress
-  /downloads          # Cypress download folder
-  /fixtures           # Test data for Cypress tests
-  /integration
-    /tests            # Organized tests for different features
-      brokenImagesTest.spec.ts
-      dropdownTest.spec.ts
-      dynamicLoadingTest.spec.ts
-      redirectLinkTest.spec.ts
-  /pages              # Page objects for encapsulating selectors and actions
-    # Files such as:
-      dropdownPage.ts
-      brokenImagesPage.ts
-      dynamicLoadingPage.ts
-      redirectLinkPage.ts
-  /support            # Cypress support files (commands, e2e, etc.)
-/cypress.config.js    # Cypress configuration file
-/tsconfig.json        # TypeScript configuration file
-/package.json         # Node package file with project dependencies
-/README.md            # Project documentation
 
 # Key Components:
 
@@ -49,7 +27,7 @@ If you do not have Node.js installed, you can download and install it from the o
 
 1. Clone the repository:
 
-`git clone <repository-url>`
+`git clone https://github.com/mbogdanpop/cypress-herokuapp/`
 `cd cypress`
 
 2. Install the project dependencies:
