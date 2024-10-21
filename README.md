@@ -77,11 +77,11 @@ Once the Cypress window opens, you can select a test to run.
 `npx cypress run`
 
 # Tests Included
-  •	Dropdown Test: Verifies the functionality of the dropdown menu.
-  •	Broken Images Test: Checks for any broken images on the page.
-    •	Note: This test is designed to fail if broken images are found on the page. Cypress will identify non-200 responses for image requests and flag them as broken. The test logs the broken images and asserts their status.
-  •	Dynamic Loading Test: Verifies the dynamic loading of content on the page.
-	•	Redirect Link Test: Validates HTTP redirection and checks the HTTP Status Codes registry page.
+• Dropdown Test: Verifies the functionality of the dropdown menu.
+• Broken Images Test: Checks for any broken images on the page.
+    • Note: This test is designed to fail if broken images are found on the page. Cypress will identify non-200 responses for image requests and flag them as broken. The test logs the broken images and asserts their status.
+• Dynamic Loading Test: Verifies the dynamic loading of content on the page.
+• Redirect Link Test: Validates HTTP redirection and checks the HTTP Status Codes registry page.
 
 
 # Page Object Model (POM)
